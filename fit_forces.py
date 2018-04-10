@@ -5,7 +5,8 @@ import cma # pycma is the optimizer package we are using for the fits now
 import mnn
 
 # Number of discs is passed in parameters (default = 10)
-ndiscs = int(sys.argv[1]) if len(sys.argv) > 0 else 10
+ndiscs = int(sys.argv[1]) if len(sys.argv) > 1 else 10
+print('Fitting McMillan\'s model of the Milky Way using {} MNn discs'.format(ndiscs))
 
 # The data we are fitting, here it's a file with 5 columns : R, z, phi, dphi/dR, dphi/dz
 dat    = np.loadtxt('pjm_model_disc.dat')
