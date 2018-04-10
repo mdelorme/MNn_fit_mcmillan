@@ -10,7 +10,7 @@ This script uses numpy and matplotlib. It also requires :
 
 
 ## References
-McMillan P. J., 2017, MNRAS, 465, 76
-Rojas-Niño A., Real J.I, Aguilar L., Delorme M., 2016, MNRAS, 459, 3349
+ * McMillan P. J., 2017, MNRAS, 465, 76
+ * Rojas-Niño A., Real J.I, Aguilar L., Delorme M., 2016, MNRAS, 459, 3349
 
 
